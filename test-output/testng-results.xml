@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14874" started-at="2017-11-23T19:20:20Z" finished-at="2017-11-23T19:20:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14874" started-at="2017-11-23T19:20:20Z" finished-at="2017-11-23T19:20:34Z">
+      <class name="com.salle.test.funcionales.header.Test_HeaderTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@4007f65e]" name="beforeClass" is-config="true" duration-ms="3576" started-at="2017-11-23T20:20:20Z" finished-at="2017-11-23T20:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@4007f65e]" name="Header_Accesos" duration-ms="10443" started-at="2017-11-23T20:20:23Z" finished-at="2017-11-23T20:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Header_Accesos -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@4007f65e]" name="afterClass" is-config="true" duration-ms="829" started-at="2017-11-23T20:20:34Z" finished-at="2017-11-23T20:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.salle.test.funcionales.header.Test_HeaderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
