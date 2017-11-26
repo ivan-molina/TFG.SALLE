@@ -33,6 +33,11 @@ public class Test_HeaderTest {
 	  @Test
 	  public void Header_Accesos() {
 		  sh.Step1_Entra_Nuevos_Alumnos(driver);
+		  sh.Step2_Entra_Alumnos(driver);
+		  sh.Step3_Entra_Alumni(driver);
+		  sh.Step4_Entra_Empresas(driver);
+		  sh.Step5_Entra_Universidades(driver);
+
 	  }
 
 }

@@ -5,28 +5,28 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Pantalla_Nuevos_Alumnos {
+public class Pantalla_Alumnos {
 	
-	private String url = "http://www.salleurl.edu/es";
 	public WebDriver driver; 
 	
 	//************************************************************************
 	//Creamos nuestro Factory con todos los elementos que usaremos en la HOME*
 	//************************************************************************
 	
-	@FindBy(xpath = "/html/body/div[5]/div[1]/div/div/aside/section/div/div[1]/div/ul/li")
-	private WebElement xpath_Pantalla_NuevosAlumnos_Titulo_Menu;
+	@FindBy(id = "yui_3_17_2_1_1511708693449_147")
+	private WebElement xpath_Pantalla_Alumnos_Titulo_Menu;
 	
 	//*****************************************************************************
 	//Instanciamos el constructor de la clase junto con el constructor del Factory*
 	//*****************************************************************************
 		
-	public Pantalla_Nuevos_Alumnos(WebDriver driver){
+	public Pantalla_Alumnos(WebDriver driver){
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
-	public WebElement get_Nuevos_Alumnos_cabecera() {
-		return xpath_Pantalla_NuevosAlumnos_Titulo_Menu;
+	public WebElement get_Alumnos_cabecera() {
+		return xpath_Pantalla_Alumnos_Titulo_Menu;
 	}
+	
 }

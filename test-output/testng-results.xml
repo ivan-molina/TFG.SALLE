@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14874" started-at="2017-11-23T19:20:20Z" finished-at="2017-11-23T19:20:34Z">
+  <suite name="Default suite" duration-ms="9062" started-at="2017-11-26T18:16:06Z" finished-at="2017-11-26T18:16:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14874" started-at="2017-11-23T19:20:20Z" finished-at="2017-11-23T19:20:34Z">
+    <test name="Default test" duration-ms="9062" started-at="2017-11-26T18:16:06Z" finished-at="2017-11-26T18:16:15Z">
       <class name="com.salle.test.funcionales.header.Test_HeaderTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@4007f65e]" name="beforeClass" is-config="true" duration-ms="3576" started-at="2017-11-23T20:20:20Z" finished-at="2017-11-23T20:20:23Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5965d37]" name="beforeClass" is-config="true" duration-ms="2241" started-at="2017-11-26T19:16:06Z" finished-at="2017-11-26T19:16:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@4007f65e]" name="Header_Accesos" duration-ms="10443" started-at="2017-11-23T20:20:23Z" finished-at="2017-11-23T20:20:34Z">
+        <test-method status="PASS" signature="Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5965d37]" name="Header_Accesos" duration-ms="6116" started-at="2017-11-26T19:16:08Z" finished-at="2017-11-26T19:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header_Accesos -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@4007f65e]" name="afterClass" is-config="true" duration-ms="829" started-at="2017-11-23T20:20:34Z" finished-at="2017-11-23T20:20:34Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5965d37]" name="afterClass" is-config="true" duration-ms="689" started-at="2017-11-26T19:16:14Z" finished-at="2017-11-26T19:16:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
