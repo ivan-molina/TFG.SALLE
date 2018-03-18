@@ -146,7 +146,7 @@ public class Steps_header {
 		}
 	}
 	
-	public void Step5_Entra_Escuelas(WebDriver driver) {
+	public void Step6_Entra_Escuelas(WebDriver driver) {
 		
 		try {
 			
