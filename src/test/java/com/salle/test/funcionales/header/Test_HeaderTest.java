@@ -38,6 +38,7 @@ public class Test_HeaderTest {
 		  sh.Step4_Entra_Empresas(driver);
 		  sh.Step5_Entra_Universidades(driver);
 		  sh.Step6_Entra_Escuelas(driver);
+		  sh.Step5_Entra_Universidades(driver);
 
 	  }
 
