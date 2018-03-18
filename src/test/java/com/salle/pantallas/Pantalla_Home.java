@@ -31,10 +31,10 @@ public class Pantalla_Home {
 	@FindBy(xpath = "//*[@id=\"block-menu-features\"]/div/ul/li[5]/a")
 	private WebElement xpath_principal_header_universidades;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/div/div/div/div/ul/li[6]/a")
 	private WebElement xpath_principal_header_Escuela;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "/html/body/div[3]/div/div/div/div[2]/nav/div/div/div/div/div/ul/li[6]/a")
 	private WebElement xpath_principal_header_prensa;
 	
 	//*****************************************************************************

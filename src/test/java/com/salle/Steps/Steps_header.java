@@ -1,5 +1,6 @@
 package com.salle.Steps;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -141,6 +142,26 @@ public class Steps_header {
 			
 		}catch(Exception e) {
 			System.out.println("TEST_STEP 5 Resultado = KO");
+			System.out.println(e);
+		}
+	}
+	
+	public void Step5_Entra_Escuelas(WebDriver driver) {
+		
+		try {
+			
+			WebDriverWait wait = new WebDriverWait(driver, 10);
+			
+			System.out.println("=====================================");
+			System.out.println("STEP 6: Entra pantalla Escuelas");
+			
+			ph.getHeader_Escuela().click();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[5]/div[1]/div/div/aside/section/div/div[1]/div/ul/li")));
+			System.out.println("TEST_STEP 6 Resultado = OK");
+			
+		}catch(Exception e) {
+			System.out.println("TEST_STEP 6 Resultado = KO");
 			System.out.println(e);
 		}
 	}
