@@ -166,4 +166,25 @@ public class Steps_header {
 		}
 	}
 	
+	public void Step7_Entra_Prensa(WebDriver driver) {
+		
+		try {
+			
+			WebDriverWait wait = new WebDriverWait(driver, 10);
+			
+			System.out.println("=====================================");
+			System.out.println("STEP 7: Entra pantalla Prensa");
+			
+			ph.getHeader_Escuela().click();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[5]/div[1]/div/div/aside/section/div/div[1]/div/ul/li")));
+			System.out.println("TEST_STEP 7 Resultado = OK");
+			
+		}catch(Exception e) {
+			System.out.println("TEST_STEP 7 Resultado = KO");
+			System.out.println(e);
+		}
+		
+	}
+	
 }
