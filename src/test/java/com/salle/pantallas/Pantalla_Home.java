@@ -37,6 +37,9 @@ public class Pantalla_Home {
 	@FindBy(xpath = "/html/body/div[3]/div/div/div/div[2]/nav/div/div/div/div/div/ul/li[6]/a")
 	private WebElement xpath_principal_header_prensa;
 	
+	@FindBy(id = "search-menu")
+	private WebElement id_buscador_principal;
+	
 	//*****************************************************************************
 	//Instanciamos el constructor de la clase junto con el constructor del Factory*
 	//*****************************************************************************
@@ -88,5 +91,13 @@ public class Pantalla_Home {
 	
 	public WebElement getHeader_Prensa() {
 		return xpath_principal_header_prensa;
-}
+	}
+	
+	//*******************************************
+	//Getters del buscador*
+	//*******************************************
+	
+	public WebElement getbuscador() {
+		return id_buscador_principal;
+	}
 }
