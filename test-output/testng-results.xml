@@ -2,26 +2,63 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29095" started-at="2018-04-08T09:10:38Z" finished-at="2018-04-08T09:11:08Z">
+  <suite name="Default suite" duration-ms="5772" started-at="2018-04-09T19:41:56Z" finished-at="2018-04-09T19:42:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29095" started-at="2018-04-08T09:10:38Z" finished-at="2018-04-08T09:11:08Z">
-      <class name="com.salle.test.funcionales.header.Test_buscador">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="beforeClass" is-config="true" duration-ms="2468" started-at="2018-04-08T11:10:38Z" finished-at="2018-04-08T11:10:41Z">
+    <test name="Default test" duration-ms="5772" started-at="2018-04-09T19:41:56Z" finished-at="2018-04-09T19:42:01Z">
+      <class name="com.salle.test.funcionales.estudy.Test_acces">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.estudy.Test_acces@710636b0]" name="beforeClass" is-config="true" duration-ms="3580" started-at="2018-04-09T21:41:56Z" finished-at="2018-04-09T21:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="Test_negativo()[pri:0, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="Test_negativo" duration-ms="17233" started-at="2018-04-08T11:10:41Z" finished-at="2018-04-08T11:10:58Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="FAIL" signature="Test_negativo()[pri:0, instance:com.salle.test.funcionales.estudy.Test_acces@710636b0]" name="Test_negativo" duration-ms="1487" started-at="2018-04-09T21:41:59Z" finished-at="2018-04-09T21:42:01Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: /html/body/div[5]/div[1]/div/div/section/div/div[2]/div[3]/div/div/ol/li[2]/h3/a (tried for 10 second(s) with 500 MILLISECONDS interval)]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="yui_3_17_2_1_1523302842612_166"]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-BSD5S3P', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\ivanm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 23f69e31de0be591500b8b070d73af61
+*** Element info: {Using=xpath, value=//*[@id="yui_3_17_2_1_1523302842612_166"]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html/body/div[5]/div[1]/div/div/section/div/div[2]/div[3]/div/div/ol/li[2]/h3/a (tried for 10 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.salle.Steps.Steps_buscador.Escriu_buscador_wrong(Steps_buscador.java:60)
-	at com.salle.test.funcionales.header.Test_buscador.Test_negativo(Test_buscador.java:31)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="yui_3_17_2_1_1523302842612_166"]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-BSD5S3P', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\ivanm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 23f69e31de0be591500b8b070d73af61
+*** Element info: {Using=xpath, value=//*[@id="yui_3_17_2_1_1523302842612_166"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.submit(Unknown Source)
+	at com.salle.Steps.Steps_acces_estudy.clickenacceso(Steps_acces_estudy.java:48)
+	at com.salle.test.funcionales.estudy.Test_acces.Test_negativo(Test_acces.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -47,34 +84,21 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html/body/div[5]/div[1]/div/div/section/div/div[2]/div[3]/div/div/ol/li[2]/h3/a
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'DESKTOP-BSD5S3P', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 27 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_negativo -->
-        <test-method status="PASS" signature="Test_positivo()[pri:1, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="Test_positivo" duration-ms="8551" started-at="2018-04-08T11:10:58Z" finished-at="2018-04-08T11:11:07Z">
+        <test-method status="PASS" signature="Test_positivo()[pri:1, instance:com.salle.test.funcionales.estudy.Test_acces@710636b0]" name="Test_positivo" duration-ms="1" started-at="2018-04-09T21:42:01Z" finished-at="2018-04-09T21:42:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_positivo -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="afterClass" is-config="true" duration-ms="806" started-at="2018-04-08T11:11:07Z" finished-at="2018-04-08T11:11:08Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.estudy.Test_acces@710636b0]" name="afterClass" is-config="true" duration-ms="656" started-at="2018-04-09T21:42:01Z" finished-at="2018-04-09T21:42:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.salle.test.funcionales.header.Test_buscador -->
+      </class> <!-- com.salle.test.funcionales.estudy.Test_acces -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

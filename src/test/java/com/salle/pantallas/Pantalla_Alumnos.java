@@ -16,6 +16,9 @@ public class Pantalla_Alumnos {
 	@FindBy(id = "yui_3_17_2_1_1511708693449_147")
 	private WebElement xpath_Pantalla_Alumnos_Titulo_Menu;
 	
+	@FindBy(xpath = "//*[@id=\"yui_3_17_2_1_1523302842612_166\"]")
+	private WebElement id_Pantalla_Alumnos_Acceso;
+	
 	//*****************************************************************************
 	//Instanciamos el constructor de la clase junto con el constructor del Factory*
 	//*****************************************************************************
@@ -27,6 +30,10 @@ public class Pantalla_Alumnos {
 	
 	public WebElement get_Alumnos_cabecera() {
 		return xpath_Pantalla_Alumnos_Titulo_Menu;
+	}
+	
+	public WebElement get_Pantalla_Alumnos_Acceso() {
+		return id_Pantalla_Alumnos_Acceso;
 	}
 	
 }
