@@ -57,7 +57,7 @@ public class Steps_buscador {
 		}
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[5]/div[1]/div/div/section/div/div[2]/div[3]/div/div/ol/li[2]/h3/a")));	
+		//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[5]/div[1]/div/div/section/div/div[2]/div[3]/div/div/ol/li[2]/h3/a")));	
 		driver.findElements(By.tagName("Chipirones"));	
 	}
 	
