@@ -1,29 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22443" started-at="2018-04-17T18:41:22Z" finished-at="2018-04-17T18:41:44Z">
+  <suite name="Default suite" duration-ms="67910" started-at="2018-09-14T17:29:42Z" finished-at="2018-09-14T17:30:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22443" started-at="2018-04-17T18:41:22Z" finished-at="2018-04-17T18:41:44Z">
-      <class name="com.salle.test.funcionales.header.Test_buscador">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="beforeClass" is-config="true" duration-ms="3222" started-at="2018-04-17T20:41:22Z" finished-at="2018-04-17T20:41:25Z">
+    <test name="Default test" duration-ms="67910" started-at="2018-09-14T17:29:42Z" finished-at="2018-09-14T17:30:50Z">
+      <class name="com.salle.test.funcionales.header.Test_HeaderTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="startReport" is-config="true" duration-ms="94" started-at="2018-09-14T19:29:42Z" finished-at="2018-09-14T19:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="beforeClass" is-config="true" duration-ms="3467" started-at="2018-09-14T19:29:42Z" finished-at="2018-09-14T19:29:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Test_negativo()[pri:0, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="Test_negativo" duration-ms="13827" started-at="2018-04-17T20:41:25Z" finished-at="2018-04-17T20:41:39Z">
+        <test-method status="PASS" signature="Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="Header_Accesos" duration-ms="63305" started-at="2018-09-14T19:29:45Z" finished-at="2018-09-14T19:30:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_negativo -->
-        <test-method status="PASS" signature="Test_positivo()[pri:1, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="Test_positivo" duration-ms="4701" started-at="2018-04-17T20:41:39Z" finished-at="2018-04-17T20:41:44Z">
+        </test-method> <!-- Header_Accesos -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="getResult" is-config="true" duration-ms="20" started-at="2018-09-14T19:30:49Z" finished-at="2018-09-14T19:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Header_Accesos status=SUCCESS method=Test_HeaderTest.Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_positivo -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_buscador@6cb107fd]" name="afterClass" is-config="true" duration-ms="665" started-at="2018-04-17T20:41:44Z" finished-at="2018-04-17T20:41:44Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="afterClass" is-config="true" duration-ms="710" started-at="2018-09-14T19:30:49Z" finished-at="2018-09-14T19:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.salle.test.funcionales.header.Test_buscador -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="tearDown" is-config="true" duration-ms="298" started-at="2018-09-14T19:30:49Z" finished-at="2018-09-14T19:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salle.test.funcionales.header.Test_HeaderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -10,7 +10,7 @@ public class Esenciales {
 		Assert.assertEquals(url, urltocompare);
 	}
 	
-	public void cambiaPestaña(WebDriver driver) {
+	public void cambiaPestana(WebDriver driver) {
 		for (String handle : driver.getWindowHandles()) {
 			driver.switchTo().window(handle);
 			String url = driver.getCurrentUrl();

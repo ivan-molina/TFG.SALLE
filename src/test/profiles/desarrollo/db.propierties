@@ -1,0 +1,4 @@
+driver=drivers.chromedriver.exe
+db.url = ${db.url}
+db.user = ${db.user}
+db.password = ${db.password}

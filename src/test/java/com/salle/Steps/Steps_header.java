@@ -62,7 +62,7 @@ public class Steps_header {
 						
 			//Guardamos el handle del driver de la pantalla principal
 			String originalWindowHandle = driver.getWindowHandle();
-			esen.cambiaPestaña(driver);
+			esen.cambiaPestana(driver);
 
 			//Verificamos el handle posicionado en la nueva pestaña
 			esen.ValidaUrl(driver, "https://estudy.salle.url.edu/?lang=es");
@@ -75,6 +75,7 @@ public class Steps_header {
 		}catch(Exception e) {
 			System.out.println("TEST_STEP 2 Resultado = KO");
 			System.out.println(e);
+			
 		}
 	}
 	
@@ -89,7 +90,7 @@ public class Steps_header {
 						
 			//Guardamos el handle del driver de la pantalla principal
 			String originalWindowHandle = driver.getWindowHandle();
-			esen.cambiaPestaña(driver);
+			esen.cambiaPestana(driver);
 
 			//Verificamos el handle posicionado en la nueva pestaña
 			esen.ValidaUrl(driver, "http://alumni.salleurl.edu/");

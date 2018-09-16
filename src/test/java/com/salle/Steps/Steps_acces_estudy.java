@@ -32,7 +32,7 @@ public class Steps_acces_estudy {
 			ph.getHeader_Alumnos().click();				
 			//Guardamos el handle del driver de la pantalla principal
 			String originalWindowHandle = driver.getWindowHandle();
-			esen.cambiaPestaña(driver);
+			esen.cambiaPestana(driver);
 			
 		}catch(Exception e) {
 			System.out.println("TEST_STEP 2 Resultado = KO");
