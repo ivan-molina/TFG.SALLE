@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.salle.test.funcionales.estudy.Test_acces">
+      <class name="com.salle.test.funcionales.header.Test_HeaderTest">
         <methods>
-          <include name="Test_negativo"/>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="beforeClass"/>
+          <include name="Header_Accesos"/>
         </methods>
-      </class> <!-- com.salle.test.funcionales.estudy.Test_acces -->
+      </class> <!-- com.salle.test.funcionales.header.Test_HeaderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

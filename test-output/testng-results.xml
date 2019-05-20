@@ -1,40 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67910" started-at="2018-09-14T17:29:42Z" finished-at="2018-09-14T17:30:50Z">
+  <suite name="Default suite" duration-ms="23885" started-at="2019-01-10T16:57:18Z" finished-at="2019-01-10T16:57:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67910" started-at="2018-09-14T17:29:42Z" finished-at="2018-09-14T17:30:50Z">
+    <test name="Default test" duration-ms="23885" started-at="2019-01-10T16:57:18Z" finished-at="2019-01-10T16:57:42Z">
       <class name="com.salle.test.funcionales.header.Test_HeaderTest">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="startReport" is-config="true" duration-ms="94" started-at="2018-09-14T19:29:42Z" finished-at="2018-09-14T19:29:42Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="startReport" is-config="true" duration-ms="119" started-at="2019-01-10T17:57:18Z" finished-at="2019-01-10T17:57:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="beforeClass" is-config="true" duration-ms="3467" started-at="2018-09-14T19:29:42Z" finished-at="2018-09-14T19:29:45Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="beforeClass" is-config="true" duration-ms="6763" started-at="2019-01-10T17:57:18Z" finished-at="2019-01-10T17:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="Header_Accesos" duration-ms="63305" started-at="2018-09-14T19:29:45Z" finished-at="2018-09-14T19:30:49Z">
+        <test-method status="FAIL" signature="Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="Header_Accesos" duration-ms="15910" started-at="2019-01-10T17:57:25Z" finished-at="2019-01-10T17:57:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://alumni.salleurl.edu/?_ga=2.123529227.1626555648.1547139439-1500646009.1547139439] but found [http://alumni.salleurl.edu/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://alumni.salleurl.edu/?_ga=2.123529227.1626555648.1547139439-1500646009.1547139439] but found [http://alumni.salleurl.edu/]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.salle.tools.Esenciales.ValidaUrl(Esenciales.java:10)
+	at com.salle.Steps.Steps_header.Step3_Entra_Alumni(Steps_header.java:96)
+	at com.salle.test.funcionales.header.Test_HeaderTest.Header_Accesos(Test_HeaderTest.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header_Accesos -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="getResult" is-config="true" duration-ms="20" started-at="2018-09-14T19:30:49Z" finished-at="2018-09-14T19:30:49Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="getResult" is-config="true" duration-ms="12" started-at="2019-01-10T17:57:40Z" finished-at="2019-01-10T17:57:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Header_Accesos status=SUCCESS method=Test_HeaderTest.Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec] output={null}]]]>
+                <![CDATA[[TestResult name=Header_Accesos status=FAILURE method=Test_HeaderTest.Header_Accesos()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="afterClass" is-config="true" duration-ms="710" started-at="2018-09-14T19:30:49Z" finished-at="2018-09-14T19:30:49Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="afterClass" is-config="true" duration-ms="733" started-at="2019-01-10T17:57:40Z" finished-at="2019-01-10T17:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="tearDown" is-config="true" duration-ms="298" started-at="2018-09-14T19:30:49Z" finished-at="2018-09-14T19:30:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.salle.test.funcionales.header.Test_HeaderTest@5b38c1ec]" name="tearDown" is-config="true" duration-ms="333" started-at="2019-01-10T17:57:41Z" finished-at="2019-01-10T17:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
